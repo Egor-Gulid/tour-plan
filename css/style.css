@@ -622,10 +622,13 @@ template {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 765px) {
   .container {
     max-width: 576px;
     width: 92%;
+  }
+  .navbar__search, .navbar-menu, .navbar__user {
+    display: none;
   }
   .menu-button {
     display: -webkit-box;
@@ -685,12 +688,6 @@ template {
 }
 
 @media (max-width: 576px) {
-  .container {
-    max-width: 320px;
-  }
-  .navbar__search, .navbar-menu, .navbar__user {
-    display: none;
-  }
   .logo {
     width: 99px;
   }
