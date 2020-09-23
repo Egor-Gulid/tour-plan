@@ -847,7 +847,10 @@ template {
     margin-bottom: 30px;
   }
   .hotel-right {
-    font-display: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .booking {
     width: 340px;
@@ -927,7 +930,10 @@ template {
     height: 350px;
   }
   .hotel-right {
-    font-display: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     min-height: 450px;
   }
   .booking {
