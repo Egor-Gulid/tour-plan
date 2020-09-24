@@ -879,6 +879,7 @@ template {
   border: none;
   background-color: #EC1F46;
   color: #fff;
+  text-overflow: ellipsis;
 }
 
 .reviews {
@@ -1026,7 +1027,7 @@ template {
   .container {
     max-width: 960px;
   }
-  .slider {
+  .hotel-slider {
     width: 590px;
   }
   .hotel-slider__image {
