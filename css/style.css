@@ -1348,7 +1348,8 @@ template {
     line-height: 160%;
   }
   .card {
-    width: 100%;
+    width: 280px;
+    height: 255px;
   }
 }
 /*# sourceMappingURL=style.css.map */
